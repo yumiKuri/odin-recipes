@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Outfit, serif;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/watercolor-dongzhi-festival-background_23-2149185896.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-weight: 700;
+    margin: 0;
+}
+
+.container h3{
+    margin: 10px 0 25px 0;
+    font-weight: 600;
+    color: #cf331d;
+}
+
+
+.button-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container a{
+    font-weight: 450;
+    text-decoration: none;
+    background-color: #e9991c;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 20px;
+}
+
+a:hover{
+    background-color: #d5c194;
+    transition: 0.3s;
+}
