@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Outfit, serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1{ 
+    font-size: clamp(2rem, 4vw, 3.5rem); 
+    line-height: 1.2; 
+    margin: 0;
+    margin-top: 1rem;
+}
+
+h3{
+    font-size: clamp(1.25rem, 1.8vw, 1.75rem);
+    line-height: 1.4;
+    color: #cf331d;
+    margin: 0;
+    margin-top: 1.75rem;
+}
+
+h4{
+    font-size: clamp(1.125rem, 1.4vw, 1.5rem);
+    line-height: 1.5;
+    color: #cf331d;
+    margin-top: 1.75rem;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: clamp(1rem, 1.2vw, 1.125rem);
+    margin: 0;
+    margin-top: 0.75rem; 
+}
+
+.img-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.content-container{
+    margin-left: 40vw;
+    min-height: 100vh;
+    padding: 3rem;
+    padding-left: 4rem;
+    position: relative;
+}
+
+.content-container a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color:#e9991c;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+}
+
+a:hover{
+    transition: 0.4s;
+    background-color: #d5c194;
+}
+
+.list{
+    margin: 0.75rem 1.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+    gap: 1rem;
+}
+
+.list > li{
+    margin: 0 1rem 0 0;
+}
