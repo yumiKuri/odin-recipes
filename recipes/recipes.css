@@ -57,6 +57,7 @@ p{
     width: 40vw;
     height: 100vh;
     overflow: hidden;
+    box-shadow: 6px 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .img-container img{
